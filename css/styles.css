@@ -11,7 +11,7 @@ a {
 ul, ol {
     list-style: none;
 }
-
+/* 
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -25,7 +25,7 @@ ul, ol {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
+*/
 .logo {
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -133,7 +133,7 @@ background: #F4F4FD;
 }
 
 .features-title {
-color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42);
     font-family: Roboto;
     font-size: 36px;
     line-height: 1.1;
@@ -150,7 +150,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .team-subtitle {
-color: #2E2F42);
+    color: #2E2F42);
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -219,7 +219,7 @@ background: #2E2F42;
 }
 
 .footer-logo {
-color: var(--IRIS, #4D5AE5);
+    color: #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
