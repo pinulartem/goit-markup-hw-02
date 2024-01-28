@@ -58,7 +58,7 @@ ul, ol {
 /* =====Section Hero===== */
 
 .hero {
-    background: #2e2f42);
+    background: #2e2f42;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
@@ -88,7 +88,7 @@ ul, ol {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42);
+    color: #2e2f42;
 }
 
 .features-item-text {
@@ -104,11 +104,11 @@ ul, ol {
 /* ======== TEAM ======== */
 
 .team {
-background: #f4f4fd;
+
 }
 
 .features-title {
-    color: #2e2f42);
+    color: #2e2f42;
     font-family: Roboto;
     font-size: 36px;
     text-align: center;
@@ -126,7 +126,7 @@ background: #f4f4fd;
 }
 
 .team-subtitle {
-    color: #2e2f42);
+    color: #2e2f42;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -196,7 +196,7 @@ background: #2E2F42;
 }
 
 .footer-logo {
-    color: #4d5ae5);
+    color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
