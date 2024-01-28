@@ -58,12 +58,26 @@ ul, ol {
 /* =====Section Hero===== */
 
 .hero {
-    background: #2e2f42;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
+background-color: #2e2f42;
+}
+
+.hero-title {
+color: #ffffff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-button-text {
+color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 /* ====================== */
