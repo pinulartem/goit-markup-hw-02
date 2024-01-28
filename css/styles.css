@@ -19,11 +19,11 @@ ul, ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 
 .logo-studio {
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 .nav-link {
@@ -31,12 +31,12 @@ ul, ol {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .address {
@@ -52,24 +52,13 @@ ul, ol {
 
 .address-link:hover,
 .address-link:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 /* =====Section Hero===== */
 
 .hero {
-    background: #2E2F42;
-}
-
-.hero-title {
-    color: #ffffff;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-}
-
-.button {
-    color: var(--WHITE, #FFF);
+    background: #2e2f42);
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
@@ -99,7 +88,7 @@ ul, ol {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42);
+    color: #2e2f42);
 }
 
 .features-item-text {
@@ -115,14 +104,15 @@ ul, ol {
 /* ======== TEAM ======== */
 
 .team {
-background: #F4F4FD;
+background: #f4f4fd;
 }
 
 .features-title {
-    color: #2E2F42);
+    color: #2e2f42);
     font-family: Roboto;
     font-size: 36px;
-    line-height: 1.1;
+    text-align: center;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -136,7 +126,7 @@ background: #F4F4FD;
 }
 
 .team-subtitle {
-    color: #2E2F42);
+    color: #2e2f42);
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -162,10 +152,11 @@ background: #ffffff;
 }
 
 .portfolio-title {
-    color: #2E2F42;
+    color: #2e2f42;
     font-family: Roboto;
     font-size: 36px;
-    line-height: 1.1;
+    text-align: center;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -179,7 +170,7 @@ background: #ffffff;
 }
 
 .portfolio-item-subtitle {
-    color: #2E2F42;
+    color: #2e2f42;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -205,7 +196,7 @@ background: #2E2F42;
 }
 
 .footer-logo {
-    color: #4D5AE5);
+    color: #4d5ae5);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -215,17 +206,17 @@ background: #2E2F42;
 }
 
 .footer-logo-text {
-    color: #F4F4FD;
-    font-family: Raleway;
+    color: #f4f4fd;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .footer-text {
-    color: #F4F4FD;
+    color: #4d5ae5;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
