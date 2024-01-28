@@ -74,11 +74,17 @@ color: #ffffff;
 .button-hero {
     background-color: #4D5AE5;
     color: #FFF;
-    font-family: Roboto;
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #404BBF;
+    cursor: pointer;
 }
 
 /* ====================== */
