@@ -1,23 +1,39 @@
 body {
-    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 ul, ol {
     list-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .logo {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
-        font-family: Raleway, sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
 }
 
 .logo-studio {
@@ -25,11 +41,11 @@ ul, ol {
 }
 
 .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2E2F42;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -42,12 +58,191 @@ ul, ol {
 }
 
 .address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
 }
+
 .address-link:hover,
 .address-link:focus {
     color: #404BBF;
+}
+
+/* =====Section Hero===== */
+
+.hero {
+    background: #2E2F42;
+}
+
+.hero-title {
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    color: var(--WHITE, #FFF);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+}
+
+/* ====================== */
+
+/* ====== Features ====== */
+
+.features {
+
+}
+
+.features-list {
+
+}
+
+.features-item {
+
+}
+
+.features-subtitle {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42);
+}
+
+.features-item-text {
+    font-family: Roboto;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* ====================== */
+
+/* ======== TEAM ======== */
+
+.team {
+background: #F4F4FD;
+}
+
+.features-title {
+color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-item {
+
+}
+
+.team-picture {
+
+}
+
+.team-subtitle {
+color: #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-item-text {
+    font-family: Roboto;
+    color:#434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* ====================== */
+
+/* =======PORTFOLIO====== */
+
+.portfolio {
+background: #ffffff;
+}
+
+.portfolio-title {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.portfolio-item {
+
+}
+
+.portfolio-picture {
+
+}
+
+.portfolio-item-subtitle {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-item-text {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* ====================== */
+
+/* ========FOOTER======== */
+
+.footer {
+background: #2E2F42;
+}
+
+.footer-logo {
+color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-text {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
